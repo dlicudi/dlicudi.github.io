@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Projects
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Cockpitdecks Configs
 
-## Project layout
+[Cockpitdecks Configs](https://github.com/dlicudi/cockpitdecks-configs) is collection of aircraft configs for [cockpitdecks](https://github.com/devleaks/cockpitdecks).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+---
+
+## Contributions
+
+
+### Cockpitdecks
+
+[Cockpitdecks](https://github.com/devleaks/cockpitdecks) is a python software to interface various hardware devices with X-Plane flight simulator
+
+
+## Skills
+
+Here are some of my technical skills:
+
+- Programming Languages: C, PHP, Lua, Python
+- Frameworks: Flask, Django, MkDocs
+- Tools: Git, VS Code
+
+## Contact
+
+Feel free to reach out to me for any inquiries or collaboration!
+
+- Email: dlicudi@gmail.com
+- GitHub: [dlicudi](https://github.com/dlicudi)
+
+

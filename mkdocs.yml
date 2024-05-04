@@ -1,1 +1,6 @@
 site_name: dlicudi.github.io
+theme:
+  name: material
+  palette:
+    primary: blue grey
+
