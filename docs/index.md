@@ -23,7 +23,7 @@
 Here are some of my technical skills:
 
 - Programming Languages: C, PHP, Lua, Python
-- Frameworks: Flask, Django, MkDocs
+- Frameworks: Flask, Django, MkDocs, FastAPI
 - Tools: Git, VS Code
 
 ## Contact
