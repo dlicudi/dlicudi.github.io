@@ -1,36 +1,22 @@
 # Welcome
 
+Hi, I'm Duane.
 
-## Projects
+I'm a Systems Integration Specialist and Developer with over 20 years of experience in UNIX/Linux environments. Over the past decade at Gibtelecom, I've specialised in developing and integrating systems, implementing comprehensive monitoring solutions, and achieving ISO 27001 compliance for secure development.
 
-### Cockpitdecks Configs
+I'm passionate about coding, especially in Python, and I thrive on implementing solutions that require interfacing and integration.
 
-[Cockpitdecks Configs](https://github.com/dlicudi/cockpitdecks-configs) is collection of aircraft configs for [cockpitdecks](https://github.com/devleaks/cockpitdecks).
+## Links
 
-
----
-
-## Contributions
-
-
-### Cockpitdecks
-
-[Cockpitdecks](https://github.com/devleaks/cockpitdecks) is a python software to interface various hardware devices with X-Plane flight simulator
-
-
-## Skills
-
-Here are some of my technical skills:
-
-- Programming Languages: C, PHP, Lua, Python
-- Frameworks: Flask, Django, MkDocs, FastAPI
-- Tools: Git, VS Code
+- [Cockpitdecks Configs](https://github.com/dlicudi/cockpitdecks-configs): A collection of aircraft configs for [Cockpitdecks](https://github.com/devleaks/cockpitdecks).
+- [Cockpitdecks](https://github.com/devleaks/cockpitdecks): Python software to interface various hardware devices with the X-Plane flight simulator.
+- [CV](https://dlicudi.github.io/cv): My current CV available online.
 
 ## Contact
 
-Feel free to reach out to me for any inquiries or collaboration!
+Feel free to reach out for inquiries or collaborations:
 
-- Email: dlicudi@gmail.com
-- GitHub: [dlicudi](https://github.com/dlicudi)
-
+- **Email**: [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
+- **LinkedIn**: [linkedin.com/in/dlicudi](https://linkedin.com/in/dlicudi)
+- **GitHub**: [github.com/dlicudi](https://github.com/dlicudi)
 
