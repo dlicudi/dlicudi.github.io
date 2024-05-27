@@ -9,7 +9,7 @@ I'm passionate about coding, especially in Python, and I thrive on implementing 
 ## Links
 
 - [Cockpitdecks Configs](https://github.com/dlicudi/cockpitdecks-configs): A collection of aircraft configs for [Cockpitdecks](https://github.com/devleaks/cockpitdecks).
-- [Cockpitdecks](https://github.com/devleaks/cockpitdecks): Python software to interface various hardware devices with the X-Plane flight simulator.
+- [Cockpitdecks](https://github.com/devleaks/cockpitdecks): A project I sometimes [contribute](https://github.com/devleaks/cockpitdecks/commits/main/?author=dlicudi) to that provides a python based interface to various hardware devices and X-Plane flight simulator.
 - [CV](https://dlicudi.github.io/cv): My current CV available online.
 
 ## Contact
