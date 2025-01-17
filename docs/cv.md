@@ -180,6 +180,7 @@ L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
 - **Check_MK** (★★★★☆, 8+ yrs) - Monitoring of telecoms and internet infrastructure, environmental sensors. 
 - **Postman** (★★★★☆, 5+ yrs) - Incredibly useful tool for API development and security testing. 
 - **Markdown** (★★★★★, 5+ yrs) - Documentation, READMEs, documentation on GitHub
+- **RESTful API** (★★★★★, 8+ yrs): Developed APIs using FastAPI, Flask, Django; use of Ericsson node APIs, third-party, and self-developed APIs.  
 
 ---
 ## Open Source Projects
