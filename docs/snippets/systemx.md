@@ -1,5 +1,5 @@
 
-
+Sample from SystemX class abstracting SystemX commands as functions.
 
 ``` py title="SystemX"
     def get_fixed_destination_call_facility(self, directory_number, line_number, tariff_level):
