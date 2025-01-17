@@ -11,13 +11,14 @@ Systems Integration Engineer and Developer with over 20 years of experience in U
 - **Security and Compliance:** Achieved ISO 27001 certification, implementing secure development practices.
 - **Performance Optimisation:** Enhanced system performance through operating system and database optimisations in business critical environments.
 
-### Key Projects
-- **Gibraltar .GI Registry:** Developed a comprehensive system for domain registry management.
-- **Electorate Lookup Tool:** Built for the Gibraltar Government's electoral processes.
-- **Open Source Involvement:** Contributor to Cockpitdecks, main developer for Cockpitdecks Configs.
-- **Provisioning Platform:** Developed a Flask and MongoDB-based platform used company-wide, enabling engineers and customer service to manage service provisioning seamlessly.
-- **IMS and FTTH Migration Portals:** Built Django/PostgreSQL-based portals to facilitate smooth transitions for telephone and broadband subscribers, managing large-scale migrations without service interruption.
-- **SMS API:** Created a customer-facing SMS service using Django, PostgreSQL, and FastAPI, providing reliable and scalable text messaging capabilities via a RESTful API interface.
+### Interesting Projects
+- **MVNO SIM Activator**: Automates SIM card activation by interfacing with a BSS platform, managing activation workflows.
+- **MVNO Usage Database**: Collects, processes, and stores subscriber usage data using Python, MySQL, and SOAP API for data retrieval.
+- **EPG CDR Processor**: Parsing and analyzing EPG CDRs, specifically for packet data, featuring multi-processing and custom data handling.
+- **Field Ops Portal**: Provides real-time scheduling and CRM integration for field operations, using Django and Celery for task management and notifications.
+- **Cockpitdecks**: Enhances the functionality of Loupedeck and Streamdeck for flight simulation, contributing to open-source with bug fixes and new features.
+- **SMS Gateway**: An innovative solution for SMS communication, integrating with an SMS Centre via SMPP protocol, with advanced features like real-time rate limiting.
+- **MVNO Number Porting**: A specialised system for automating number porting in telecom, using multiprocessing and integrating with a Flexible Number Registry.
 
 ### Skills
 - **Languages & Frameworks:** Python, PHP, JavaScript, Django, Flask, FastAPI
