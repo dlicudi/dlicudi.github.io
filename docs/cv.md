@@ -19,7 +19,7 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
 timeline
         title Timeline
         section John Licudi & Partners, Gibraltar <br> 1997 - 1999
-          IT Manager
+          IT Specialist
         section GibNet Ltd, Gibraltar <br> 2000 - 2005
           Helpdesk
           System Administrator
@@ -121,7 +121,7 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
 ### :material-account: John Licudi & Partners, Gibraltar
 *Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.*
 
-- **Position**: IT Manager
+- **Position**: IT Specialist
 - **Duration**: 1997 - 1999
 
 ---
