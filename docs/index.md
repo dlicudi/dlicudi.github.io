@@ -1,6 +1,9 @@
 # Duane Licudi
 
+
 Systems Integration Engineer and Developer with over 20 years of experience in UNIX/Linux environments, specializing in system development, integration, and security compliance at Gibtelecom.
+
+[Online Curriculum Vitae :fontawesome-solid-file:](https://dlicudi.github.io/cv){ .md-button }
 
 ### Professional Highlights
 
@@ -21,8 +24,6 @@ Systems Integration Engineer and Developer with over 20 years of experience in U
 - **Databases:** PostgreSQL, MySQL/MariaDB, MongoDB
 - **DevOps:** Bash scripting, Git, GitHub, CI/CD
 - **Monitoring:** Check_MK, Splunk
-
-My current CV available [online](https://dlicudi.github.io/cv).
 
 ## Links
 
