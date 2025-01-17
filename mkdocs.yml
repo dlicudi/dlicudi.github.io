@@ -12,7 +12,6 @@ plugins:
   - git-committers:
       repository: dlicudi/cv
       branch: main
-
 theme:
   name: material
   font:
