@@ -90,18 +90,8 @@ For appointment confirmation and reminders, **Celery** was used to schedule emai
 
 For internal use the Django Admin interface including significant modifications to show notes and time slot usage visually utilising **Chart.js**.
 
-
 ---
 
-## FTTH Migration Portal
-TODO brief description
-
----
-
-## IMS Migration Portal
-TODO brief description
-
----
 
 ## MVNO SIM Activator
 L|Python|https://www.python.org|
@@ -187,45 +177,17 @@ sequenceDiagram
     SMSC->>Services: Incoming messages and delivery reports
 ```
 
-Django Rest Framework, Admin Interface, Signals used to adjust increase client balances on top up decrease on creating message.
+Some of the features in this project:
 
-Django Models made use of foreign keys, extensive use of attributes such as on_delete, help_text, validators, db_index.
-
-Models using of clean and save functions to check for credit and save allowed adding dynamic data such as number of SMS parts required for a message.
-
-Heavily customised admin views.
-
-Developed an SMSC telnet library required to interface with SMS centre to retrieve information such as status of the SMS centre, throughput and licensing limits.
-
-Delivery reports were recieved via SMPP connection and sent to the Portal via Django's REST framework API.
-
-Services to handle incoming and outgoing messages were handled via separate listener and transmitter services connected via SMPP.
-
----
-
-## ETK (Provisioning Platform)
-TODO expanded description
-
-
-``` mermaid
-sequenceDiagram
-    participant A as Flask Front End & CLI Interface
-    participant B as Packages (interface libraries)
-    participant C as DB Storage (MongoDB)
-    participant D as External Interfaces
-    A->>B: Load custom Python modules
-    B->>C: interface configuration
-    B->>D: Telnet/SOAP/RESTFul
-```
-
-RQ Active/Standby provisioning
-Provisioning of and presentation of Panic button data using SMS.
-
----
-
-## Check_MK Monitoring System
-TODO
-
+- Custom implementation for **rate limiting** SMS transmission per client in real time.
+- Batch processing to handle large subscriber numbers.
+- Algorithms to calculate and display batch progress in real time (e.g. within custom functions *progress(self, obj)*).
+- Use of complex queries in Django **ORM** to annotate models with calculated fields *parts_per_minute*, *parts_sent*, etc.
+- Algorithms for **SMPP** Message handling (message encoding, SMPP PDUs, throttling, rate management)
+- Using Django's timezone utilities for scheduling and time-based queries.
+- Use of **Django** **signals** to perform automatic balance adjustments based on transactions and credit top ups.
+- Django REST framework providing an interface to Django data including providing access to the front end API.  
+- End point for clients implemented using **Fast API**. 
 ---
 
 ## MVNO Number Porting

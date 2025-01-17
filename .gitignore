@@ -1,1 +1,3 @@
 .cache/plugin/git-committers/page-authors.json
+docs/drafts/*
+docs/.DS_Store
