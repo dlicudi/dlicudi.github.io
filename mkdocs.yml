@@ -10,7 +10,7 @@ plugins:
       enable_creation_date: false
       fallback_to_build_date: true
   - git-committers:
-      repository: dlicudi/cv
+      repository: dlicudi/dlicudi.github.io
       branch: main
 theme:
   name: material
