@@ -6,7 +6,6 @@ Systems Integration Engineer and Developer with over 20 years of experience in U
 [Online Curriculum Vitae :fontawesome-solid-file:](https://dlicudi.github.io/cv){ .md-button }
 
 ### Professional Highlights
-
 - **Lead Developer at Gibtelecom:** Developed and integrated critical systems, including a monitoring solution for 60,000+ services, provisioning platforms, and migration tools for major telecom projects.
 - **Security and Compliance:** Achieved ISO 27001 certification, implementing secure development practices.
 - **Performance Optimisation:** Enhanced system performance through operating system and database optimisations in business critical environments.
