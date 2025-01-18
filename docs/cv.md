@@ -8,9 +8,16 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
 
 ---
 ## Contact
-- **Email**: [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
-- **LinkedIn**: [linkedin.com/in/dlicudi](https://linkedin.com/in/dlicudi)
-- **GitHub**: [github.com/dlicudi](https://github.com/dlicudi)
+
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-github: [dlicudi](https://github.com/dlicudi)
+- :fontawesome-brands-linkedin: [dlicudi](https://linkedin.com/in/dlicudi)
+- :fontawesome-brands-x-twitter: [duanelicudi](https://x.com/duanelicudi)
+- :fontawesome-solid-paper-plane: [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
+
+</div>
+
 
 ---
 ## Experience
