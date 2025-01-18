@@ -47,8 +47,8 @@ timeline
 !!! note "Key Achievements"
     - Monitoring system using **Check_MK** monitoring over 60k services.
     - **Flask**/**MongoDB** based **provisioning** platform used company wide by Engineers and customer facing staff.
-    - Django/PostgreSQL based migration portals to manage migration of subscribers (**SystemX**, **IMS**, **FTTH**).
-    - Support and integration of Ericsson's provisioning platforms (**EMA**/**EDA**) with BSS platform.
+    - **Django**/**PostgreSQL** based migration portals to manage migration of subscribers (**SystemX**, **IMS**, **FTTH**).
+    - Support and integration of **Ericsson** provisioning platforms (**EMA**/**EDA**) with **BSS**.
     - **Django**/**PostgreSQL** and **FastAPI** based **SMS API** to provide a customer-facing service.
     - Standardised process for new **standard operating procedures** adopted across Technology Directorate.
     - **Python**/**MongoDB** based automated **MVNO** number porting system.
@@ -65,9 +65,9 @@ timeline
 - **Duration**: Jan 2013 - Dec 2013
 
 !!! note "Key Achievements"
-    - **Splunk** health monitoring of **Oracle Coherence** and **ActiveMQ** using **JMX** enhancing system visibility and troubleshooting capabilities.
-    - Improved deployment processes that eliminated **Oracle Coherence** downtime, significantly improving deployment reliability.
-    - Diagnosed and fixed configuration issues with the mobile website that had been affected by downtime, ensuring seamless service delivery.
+    - **Splunk** health monitoring of **Oracle Coherence** and **ActiveMQ** using **JMX**.
+    - Deployment processes to eliminate **Oracle Coherence** downtime and improve deployment reliability.
+    - Diagnosed and fixed configuration issues with the mobile website eliminating downtime.
     - Performed **MySQL** database optimisations on a **live betting** platform, significantly improving **performance** and enabling more events to run in parallel.
 
 ### :material-account: Licudi IT Consulting Ltd, Gibraltar
