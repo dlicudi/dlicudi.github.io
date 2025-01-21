@@ -1,3 +1,9 @@
+---
+title: CV
+summary: A sample of interesting projects I've worked on
+author: Duane Licudi
+---
+
 # Duane Licudi
 
 ---
