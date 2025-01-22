@@ -9,8 +9,8 @@ author: Duane Licudi
 
 Systems Integration Engineer and Developer with over 20 years of experience in UNIX/Linux environments, specializing in system development, integration, and security compliance at Gibtelecom.
 
-[Online Curriculum Vitae :fontawesome-solid-file:](/cv){ .md-button .md-button--primary }
-[Projects :fontawesome-solid-folder-open:](/projects){ .md-button .md-button--primary}
+[Online Curriculum Vitae :fontawesome-solid-file:](cv){ .md-button .md-button--primary }
+[Projects :fontawesome-solid-folder-open:](projects){ .md-button .md-button--primary}
 [Code :fontawesome-solid-laptop-code: Coming Soon](#){ .md-button .md-button-coming-soon }
 
 ### Professional Highlights
