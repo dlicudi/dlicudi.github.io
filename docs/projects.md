@@ -269,8 +269,13 @@ sequenceDiagram
     Deployment->>Documentation: System and User Documentation
 
     Documentation->>UT: Provide training to subset of users
+```
 
-
+!!! note "Highlights"
+    - Implemented peer code reviews as part of ticketing system workflow.
+    - Created standard operating procedures for secure development compliance.
+    - OWASP based security compliance auditing.
+    - Implemented detailed workflows for new projects to ensure secure development from the outset.
 
 
 
