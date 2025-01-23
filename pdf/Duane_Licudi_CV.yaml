@@ -1,0 +1,329 @@
+cv:
+  name: Duane Licudi
+  location: Gibraltar
+  email: dlicudi@gmail.com
+  social_networks:
+    - network: LinkedIn
+      username: dlicudi
+    - network: GitHub
+      username: dlicudi
+  sections:
+    Summary:
+      - Systems Integration Engineer and Developer with over 20 years of experience.
+      - I have extensive experience in UNIX/Linux environments within the ISP/Telecom industries. For the past decade, I have focused on the development and integration of systems at Gibtelecom, including implementing monitoring systems, integrating multiple systems into a unified provisioning platform and achieving ISO 27001 compliance for secure development.
+    experience:
+      - company: Gibtelecom
+        position: Lead Developer
+        location: Gibraltar
+        start_date: 2013-01
+        end_date: 2023-07
+        highlights:
+          - Deployed monitoring system using **Check_MK** providing monitoring for over 60k services.
+          - Led the support and integration of **Ericsson** provisioning platforms (EMA/EDA) with BSS systems.
+          - Achieved **ISO 27001** certification for secure development.
+          - Developed Web/API provisioning platform (**Python**/**Flask**/**MongoDB**) used company wide by Engineers and Customer Care.
+          - Developed an **SMS Gateway** using **Django**, **PostgreSQL**, and **FastAPI**, facilitating SMS services for both customers and internal use.
+          - Developed **Python**/**MongoDB** **MVNO** number porting service handling over 20k daily porting changes.
+          - Conducted **MVNO** penetration testing successfully finding numerous **security vulnerabilties** that could be patched before launch.
+          - Developed specialised web portals (**Django**/**PostgreSQL**) critical in providing seamless subscriber migrations from legacy services.
+          - Developed a Mediation platform (**Python**/**MySQL**) to facilitate data warehousing and interfacing of usage records for an **MVNO** required for regulatory compliance.
+          - CI/CD pipelines using **Bash** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
+      - company: BetVictor
+        position: Enterprise Services Engineer
+        location: Gibraltar
+        start_date: 2012-12
+        end_date: 2013-12
+        highlights:
+          - Used **Splunk** to provide health monitoring of **Oracle Coherence** and **ActiveMQ** using **JMX**.
+          - Deployment processes to eliminate **Oracle Coherence** downtime and improve deployment reliability.
+          - Diagnosed and fixed configuration issues with the mobile website eliminating downtime.
+          - Performed **MySQL** database optimisations on a **live betting** platform, significantly improving **performance** and enabling more events to run in parallel.
+      - company: Licudi IT Consulting Ltd
+        position: IT Consultant
+        location: Gibraltar
+        start_date: 2010
+        end_date: 2012
+        highlights:
+          - IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.
+          - Designed **IT infrastructure** for new offices including servers, network switches, telephony and workstations/printers for firm of managers quantity surveyors (John Licudi Consulting Ltd).
+          - Migration of a **Microsoft Exchange** setup of approx. 25 accounts to **Google Apps**.
+          - Payroll application (**PHP**/**MySQL**) to automate social security/tax calculations and ability to print on pre-printed payslips.
+          - Leave management system (**PHP**/**MySQL**) allowing for leave requests to be made online.          
+      - company: Sapphire Networks
+        position: IT Systems Manager
+        location: Gibraltar
+        start_date: 2005
+        end_date: 2010
+        highlights:
+          - Implemented RT (**Request-Tracker**) and **Redmine** as ticketing systems.
+          - Expanded existing virtualised infrastructure with **Xen** on **CentOS** and Citrix XenServer.
+          - Document Management. Produced and managed technical documentation, including procedures and documentation for disaster recovery.
+          - Provided **Training** for staff within ITS, Helpdesk and the NOC.
+          - Implementing solutions to recover from server failures, particularly in the provision of disaster recovery manuals/scripts for on call action.
+          - Application for provisioning ADSL lines on MALC DSLAMs making extensive use of Pear classes for connectivity, and extending classes to hide complexity of provisioning
+          - Developed system to manage On Call and NOC Shifts online (gained experience using frameworks iUI, iWebkit and jQTouch for better mobile experience).
+      - company: GibNet
+        position: System Administrator
+        location: Gibraltar
+        start_date: 2000
+        end_date: 2005
+        highlights:
+          - Gibraltar .GI Registry (**PHP**/**MySQL**, **WHOIS**, online application forms, integrated **billing** and payment gateway integration).
+          - NAS Dial-Up Frontend. Developed frontend to view and monitor Dial-Up connections using **SNMP** and **PHP**.
+          - phpMyProjects (**PHP**/**MySQL**) Provided an efficient way to log work done on projects and servers.
+          - Development and maintenance of an existing user provisioning system based on **C**, **Bash** (+dialog) and **Perl** components.
+          - Electorate Lookup web application (**PHP**/**MySQL**) on behalf of the Gibraltar **Government** to provide an online lookup tool of the electorate list for upcoming elections and 2006 Referendum.
+          - Frontend for RADIUS accounting data (**PHP**/**MySQL**) used by Helpdesk support and customer services.
+          - Deployed paravirtualisation using **User Mode Linux** on a number of servers (as a precursor to newer technologies).
+          - Developed custom **backup** system for a large server **infrastructure** (**MySQL**/**PHP**/**Bash**). This provided incremental rolling backups easily provisioned via configuration files with the **frontend** providing status of backup jobs.
+      - company: John Licudi Consulting Ltd
+        position: IT Specialist
+        location: Gibraltar
+        start_date: 1997
+        end_date: 1999
+        highlights:
+          - Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.
+    projects:
+      - name: '[Telecoms Provisioning Platform](https://dlicudi.github.io/projects)'
+        summary: Implemented Web/API provisioning platform (**Flask**/**MongoDB**).
+        date: 2013-2023 (Gibtelecom)
+        highlights:
+          - Customer Care Interface using Flask, Bootstrap, Javascript.
+          - Flask based RESTful API for external applications.
+          - Covered many services including Hosted PBXs, SIP Trunks, eSIMs, Panic Buttons, Land Line Services, Mobile Subscribers, IPTV.
+      - name: '[Telecoms Monitoring System](https://dlicudi.github.io/projects)'
+        summary: Monitoring system using **Check_MK** monitoring over 60k services.
+        date: 2013-2023 (Gibtelecom)
+        highlights:
+          - Responsible for monitoring entire company infrastructure.
+          - Developed custom checks, graphs, plugins for monitoring services.
+          - Integrated diverse range of devices e.g. UPS systems, environmental sensors, servers, network devices, applications.
+      - name: '[Automated Number Porting](https://dlicudi.github.io/projects/#mvno-number-porting)'
+        summary: Automated **MVNO** number porting system based on **Python**/**MongoDB**.
+        date: 2013-2023 (Gibtelecom)
+        highlights:
+          - Processed over 20k porting changes per day.
+          - Utilised SFTP for file collection, **MongoDB** for data storage and parsing of CSV/gzip data files.
+          - Interfaced with FNR (Flexible Number Registry) using Telnet/MML to activate changes.
+          - Multiprocessing capability for multiple activators to run in parallel.
+          - Modular architecture (Collector, Importer, Processor, Activator).
+          - Fault tolerant with automatic retries and error handling.
+      - name: '[ISO 27001](https://dlicudi.github.io/projects/#iso-27001)'
+        summary: Achieved **ISO 27001** certification for secure development.
+        date: 2013-2023 (Gibtelecom)
+        highlights:
+          - Implemented peer code reviews as part of ticketing system workflow.
+          - Created standard operating procedures for secure development compliance.
+          - OWASP based security compliance auditing.
+          - Implemented detailed workflows for new projects to ensure secure development from the outset.
+    skills:
+      - label: Linux (★★★★★, 20+ yrs)
+        details: System administration, performance tuning for enterprise services and server management for DevOps (deployment automation, systemd services)
+      - label: Python (★★★★★, 10+ yrs)
+        details: Web development, data processing, scripting
+      - label: PHP (★★★★★, 10+ yrs)
+        details: Web development, data processing, scripting
+      - label: ISO 27001 (★★★★☆, 2+ yrs)
+        details: Experience in implementing secure development processes
+      - label: JavaScript (★★★☆☆, 10+ yrs)
+        details: Front-end UI elements with jQuery, Bootstrap, DataTables, Basic DOM manipulation
+      - label: Bash (★★★★★, 20+ yrs)
+        details: Used to automate CI/CD pipelines
+      - label: C (★★★☆☆)
+        details: Developing command-line tools to incorporate MySQL data into MRTG; kernel patching and compiling for User Mode Linux.
+      - label: Django (★★★★★, 5+ yrs)
+        details: Production-grade REST APIs, MVC apps requiring databases and admin portals
+      - label: Flask (★★★★★, 5+ yrs)
+        details: Production-grade REST APIs, MVC apps
+      - label: FastAPI (★★★☆☆, 3+ yrs)
+        details: High-performance REST APIs
+      - label: PostgreSQL (★★★☆☆, 10+ yrs)
+        details: Schema design, queries, performance tuning
+      - label: MySQL/MariaDB (★★★★★, 20+ yrs)
+        details: Schema design, queries, performance tuning
+      - label: MongoDB (★★★★★, 5+ yrs)
+        details: NoSQL data storage for usage logs, microservices
+      - label: Oracle (★★☆☆☆, 10+ yrs)
+        details: Some enterprise usage, queries
+      - label: Redis (★★★☆☆)
+        details: Used (with Python RQ) for caching data and queueing requests
+      - label: Git (★★★☆☆, 10+ yrs)
+        details: Branching strategies, PRs, CI/CD, code reviews
+      - label: GitHub (★★★☆☆, 5+ yrs)
+        details: Open source projects, GitHub workflows/automation and GitHub Pages
+      - label: VS Code (★★★★★)
+        details: Daily dev environment, Git integration, remote development, debugging
+      - label: AI Tools (★★★☆☆)
+        details: ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
+      - label: Regex (★★★★★, 20+ yrs)
+        details: Extensive use in system administration and development
+      - label: Celery (★★★☆☆, 5+ yrs)
+        details: Employed for asynchronous task management, sending emails, two-factor authentication codes and scheduled retrieval of data
+      - label: Nginx (★★★★☆, 10+ yrs)
+        details: Used with Django and Flask for reverse proxying and HTTP load balancing
+      - label: Check_MK (★★★★☆, 8+ yrs)
+        details: Monitoring of telecoms and internet infrastructure, environmental sensors.
+      - label: Postman (★★★★☆, 5+ yrs)
+        details: Incredibly useful tool for API development and security testing.
+      - label: Markdown (★★★★★, 5+ yrs)
+        details: Documentation, READMEs, documentation on GitHub
+      - label: RESTful API (★★★★★, 8+ yrs)
+        details: Developed APIs using FastAPI, Flask, Django; use of Ericsson node APIs, third-party, and self-developed APIs.
+    courses:
+      - name: '[Microservices Fundamentals](https://www.pluralsight.com/courses/microservices-fundamentals)'
+        highlights:
+          - Understanding of key principles for architecting microservice applications.
+          - Techniques for building scalable, flexible, resilient, and secure microservices.
+      - name: '[Building Microservices](https://www.pluralsight.com/courses/building-microservices)'
+        highlights:
+          - Structuring domain logic and implementing data mapping layers.
+          - Testing strategies for microservices.
+          - Handling authentication and authorization in microservice communications.
+          - Skills in building maintainable, testable, and secure microservices.
+    education:
+      - institution: University of Portsmouth
+        area: Psychology
+        degree: ADIP
+        location: Portsmouth, UK
+        start_date: 1995
+        end_date: 1997
+        highlights:
+          - Advanced Diploma in Psychology
+      - institution: Chichester College
+        area: Science
+        degree: AHE
+        location: Chichester, UK
+        start_date: 1994
+        end_date: 1995
+        highlights:
+          - Foundation Course in Science
+    languages:
+      - label: English
+        details: Native
+      - label: Spanish
+        details: Fluent
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: black
+    name: '#004f90'
+    connections: '#004f90'
+    section_titles: '#004f90'
+    links: '#004f90'
+    last_updated_date_and_page_numbering: grey
+  text:
+    font_family: Source Sans 3
+    font_size: 8pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
+      main_column_second_row_without_journal_template: "AUTHORS\n\
+        URL"
+      main_column_second_row_without_url_template: "AUTHORS\n\
+        JOURNAL"
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-01-21'
+  bold_keywords: []
