@@ -225,3 +225,59 @@ sequenceDiagram
 ```
 
 **Modular Design**: Employed a modular architecture (Collector, Importer, Processor, Activator); this allowed for easier maintenance, better scalability and improved reliability.
+
+---
+
+## ISO 27001
+L|ISO 27001|https://www.python.org|
+
+Implementing **ISO 27001** secure development (subset of ISO 27001)
+
+This sequence diagram provides a visual representation of the implemented process for either new projects or requests for significant changes. Documentation changes were set after deployment as this had to be in sync with changes. It also was a requirement before providing any user training.
+
+``` mermaid
+sequenceDiagram
+    participant Initiative as Initiative
+    participant FR as Functional Requirements
+    participant HLD as High Level Design
+    participant Implementation as Implementation
+    participant IT as Integration Testing
+    participant UAT as User Acceptance Testing
+    participant Deployment as Deployment
+    participant Documentation as Documentation
+    participant UT as User Training
+    
+    Initiative->>FR: Project goals and functional requirements
+
+    FR->>HLD: Manager pre-approval
+    FR->>HLD: Client post-approval
+
+    HLD->>Implementation: Manager pre-approval
+    HLD->>Implementation: Development, unit testing, peer review
+
+    Implementation->>IT: Manager pre-approval
+    Implementation->>IT: Define and perform integration tests
+
+    IT->>UAT: Define and perform test cases
+    IT->>UAT: Client post-approval
+
+    UAT->>Deployment: Create release with documented changes
+    UAT->>Deployment: Change management ticket
+    UAT->>Deployment: Manager approval
+    UAT->>Deployment: Deployment to production
+
+    Deployment->>Documentation: System and User Documentation
+
+    Documentation->>UT: Provide training to subset of users
+
+
+
+
+
+
+
+
+
+
+
+```
