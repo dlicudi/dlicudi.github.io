@@ -142,6 +142,48 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
 - **Duration**: 1997 - 1999
 
 ---
+
+## Projects
+
+### [Telecoms Provisioning Platform](https://dlicudi.github.io/projects)
+summary: Implemented Web/API provisioning platform (**Flask**/**MongoDB**).
+
+!!! note "Highlights"
+    - Customer Care Interface using Flask, Bootstrap, Javascript.
+    - Flask based RESTful API for external applications.
+    - Covered many services including Hosted PBXs, SIP Trunks, eSIMs, Panic Buttons, Land Line Services, Mobile Subscribers, IPTV.
+
+### [Telecoms Monitoring System](https://dlicudi.github.io/projects)
+Monitoring system using **Check_MK** monitoring over 60k services.
+
+!!! note "Highlights"
+    - Responsible for monitoring entire company infrastructure.
+    - Developed custom checks, graphs, plugins for monitoring services.
+    - Integrated diverse range of devices e.g. UPS systems, environmental sensors, servers, network devices, applications.
+
+### [Automated Number Porting](https://dlicudi.github.io/projects/#mvno-number-porting)
+Automated **MVNO** number porting system based on **Python**/**MongoDB**.
+
+!!! note "Highlights"
+    - Processed over 20k porting changes per day.
+    - Utilised SFTP for file collection, **MongoDB** for data storage and parsing of CSV/gzip data files.
+    - Interfaced with FNR (Flexible Number Registry) using Telnet/MML to activate changes.
+    - Multiprocessing capability for multiple activators to run in parallel.
+    - Modular architecture (Collector, Importer, Processor, Activator).
+    - Fault tolerant with automatic retries and error handling.
+
+### [ISO 27001](https://dlicudi.github.io/projects/#iso-27001)
+Achieved **ISO 27001** certification for secure development.
+
+!!! note "Highlights"
+    - Implemented peer code reviews as part of ticketing system workflow.
+    - Created standard operating procedures for secure development compliance.
+    - OWASP based security compliance auditing.
+    - Implemented detailed workflows for new projects to ensure secure development from the outset.
+
+
+---
+
 ## Courses
 
 ### :material-account: Microservices Fundamentals
