@@ -6,24 +6,30 @@ author: Duane Licudi
 
 # Duane Licudi
 
+## Contact
+
+
+<div class="grid" markdown>
+
+:fontawesome-solid-location-dot: __Location__ Gibraltar
+{ .card }
+
+:fontawesome-solid-paper-plane: __Email__ [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
+{ .card }
+
+:fontawesome-brands-github: __GitHub__ [dlicudi](https://github.com/dlicudi)
+{ .card }
+
+:fontawesome-brands-linkedin: __LinkedIn__ [dlicudi](https://linkedin.com/in/dlicudi)
+{ .card }
+
+</div>
+
 ---
 ## Summary
 Systems Integration Engineer and Developer with over 20 years of experience.
 
 I have extensive experience in UNIX/Linux environments within the ISP/Telecom industries. For the past decade, I have focused on the development and integration of systems at Gibtelecom, including implementing monitoring systems, integrating multiple systems into a unified provisioning platform and achieving ISO 27001 compliance for secure development.
-
----
-## Contact
-
-<div class="grid cards" markdown>
-
-- :fontawesome-brands-github: [dlicudi](https://github.com/dlicudi)
-- :fontawesome-brands-linkedin: [dlicudi](https://linkedin.com/in/dlicudi)
-- :fontawesome-brands-x-twitter: [duanelicudi](https://x.com/duanelicudi)
-- :fontawesome-solid-paper-plane: [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
-
-</div>
-
 
 ---
 ## Experience
@@ -58,18 +64,17 @@ timeline
 - **Duration**: Jan 2013 - July 2023
 
 !!! note "Key Achievements"
-    - Monitoring system using **Check_MK** monitoring over 60k services.
-    - **Flask**/**MongoDB** based **provisioning** platform used company wide by Engineers and customer facing staff.
-    - **Django**/**PostgreSQL** based migration portals to manage migration of subscribers (**SystemX**, **IMS**, **FTTH**).
-    - Support and integration of **Ericsson** provisioning platforms (**EMA**/**EDA**) with **BSS**.
-    - **Django**/**PostgreSQL** and **FastAPI** based **SMS API** to provide a customer-facing service.
-    - Standardised process for new **standard operating procedures** adopted across Technology Directorate.
-    - **Python**/**MongoDB** based automated **MVNO** number porting system.
-    - **Python** and **MySQL** based **mediation platform** to facilitate data warehousing and interfacing of usage records for an **MVNO**.
-    - Conducted **MVNO** penetration testing successfully finding numerous **security vulnerabilties** that could be patched before launch.
+    - Deployed monitoring system using **Check_MK** providing monitoring for over 60k services.
+    - Led the support and integration of **Ericsson** provisioning platforms (EMA/EDA) with BSS systems.
     - Achieved **ISO 27001** certification for secure development.
-    - Established secure development procedures and processes aligned with **ISO 27001**.
-    - **CI/CD** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
+    - Developed Web/API provisioning platform (**Python**/**Flask**/**MongoDB**) used company wide by Engineers and Customer Care.
+    - Developed an **SMS Gateway** using **Django**, **PostgreSQL**, and **FastAPI**, facilitating SMS services for both customers and internal use.
+    - Developed **Python**/**MongoDB** **MVNO** number porting service handling over 20k daily porting changes.
+    - Conducted **MVNO** penetration testing successfully finding numerous **security vulnerabilties** that could be patched before launch.
+    - Developed specialised web portals (**Django**/**PostgreSQL**) critical in providing seamless subscriber migrations from legacy services.
+    - Developed a Mediation platform (**Python**/**MySQL**) to facilitate data warehousing and interfacing of usage records for an **MVNO** required for regulatory compliance.
+    - CI/CD pipelines using **Bash** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
+
 
 ### :material-account: BetVictor, Gibraltar
 *Middleware Engineer responsible for improving performance and monitoring of critical systems like Oracle Coherence, ActiveMQ, and Apache web servers.*
