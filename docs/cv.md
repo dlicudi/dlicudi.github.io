@@ -145,7 +145,7 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
 ## Projects
 
 ### [Telecoms Provisioning Platform](https://dlicudi.github.io/projects)
-summary: Implemented Web/API provisioning platform (**Flask**/**MongoDB**).
+Implemented Web/API provisioning platform (**Flask**/**MongoDB**).
 
 !!! note "Highlights"
     - Customer Care Interface using Flask, Bootstrap, Javascript.
