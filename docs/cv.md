@@ -8,7 +8,6 @@ author: Duane Licudi
 
 ## Contact
 
-
 <div class="grid" markdown>
 
 :fontawesome-solid-location-dot: __Location__ Gibraltar
@@ -247,3 +246,6 @@ L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
 - Cockpitdecks Configs: Main Developer
 
 ---
+
+
+[Download CV :fontawesome-solid-download:](https://github.com/dlicudi/dlicudi.github.io/raw/main/pdf/Duane_Licudi_CV.pdf){ .md-button }
