@@ -180,6 +180,14 @@ Achieved **ISO 27001** certification for secure development.
     - OWASP based security compliance auditing.
     - Implemented detailed workflows for new projects to ensure secure development from the outset.
 
+### [Cockpitdecks](https://github.com/devleaks/cockpitdecks)
+Contributor to open source project Cockpitdecks, a Python interface for various deck controllers for use with X-Plane.  
+
+!!! note "Highlights"
+    - Diagnosed and resolved compatibility issues with [Loupedeck Live](https://github.com/devleaks/python-loupedeck-live/issues/2) on newer hardware firmware models.
+    - Contributed bug fixes and new features to [Cockpitdecks](https://github.com/devleaks/cockpitdecks/commits/main/?author=dlicudi) repository.
+    - Established the repository [cockpitdecks-configs](https://github.com/dlicudi/cockpitdecks-configs) and [documentation](https://dlicudi.github.io/cockpitdecks-configs/) to host a comprehensive set of aircraft configurations for use with CockpitDecks.
+
 
 ---
 
@@ -241,11 +249,5 @@ L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
 - **RESTful API** (★★★★★, 8+ yrs): Developed APIs using FastAPI, Flask, Django; use of Ericsson node APIs, third-party, and self-developed APIs.  
 
 ---
-## Open Source Projects
-- Cockpitdecks: Contributor
-- Cockpitdecks Configs: Main Developer
-
----
-
 
 [Download CV :fontawesome-solid-download:](https://github.com/dlicudi/dlicudi.github.io/raw/main/pdf/Duane_Licudi_CV.pdf){ .md-button }

@@ -116,6 +116,13 @@ cv:
           - Created standard operating procedures for secure development compliance.
           - OWASP based security compliance auditing.
           - Implemented detailed workflows for new projects to ensure secure development from the outset.
+      - name: '[Cockpitdecks](https://github.com/devleaks/cockpitdecks)'
+        summary: Contributor to open source Cockpitdecks, a Python interface for various deck controllers for use with X-Plane.  
+        date: 2024-2025
+        highlights:
+          - Diagnosed and resolved compatibility issues with [Loupedeck Live](https://github.com/devleaks/python-loupedeck-live/issues/2) on newer hardware firmware models.
+          - Contributed bug fixes and new features to [Cockpitdecks](https://github.com/devleaks/cockpitdecks/commits/main/?author=dlicudi) repository.
+          - Established the repository [cockpitdecks-configs](https://github.com/dlicudi/cockpitdecks-configs) and [documentation](https://dlicudi.github.io/cockpitdecks-configs/) to host a comprehensive set of aircraft configurations for use with CockpitDecks.
     skills:
       - label: Linux (★★★★★, 20+ yrs)
         details: System administration, performance tuning for enterprise services and server management for DevOps (deployment automation, systemd services)
