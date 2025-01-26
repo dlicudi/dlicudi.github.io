@@ -24,7 +24,7 @@ command = [
     "render",
     "cv.yaml", 
     "--pdf-path",
-    "../pdf",
+    ".",
     "--dont-generate-markdown",
     "--dont-generate-html",
     "--dont-generate-png"
