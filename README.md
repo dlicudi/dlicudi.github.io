@@ -1,2 +1,2 @@
 # dlicudi.github.io
-Landing page
+My GitHub pages landing page, CV and projects.
