@@ -1,0 +1,132 @@
+---
+title: CV
+author: {{ cv.name }}
+---
+
+# {{ cv.name }}
+
+{% set linkedin = cv.social_networks|selectattr('network', 'equalto', 'LinkedIn')|first %}
+{% set github = cv.social_networks|selectattr('network', 'equalto', 'GitHub')|first %}
+
+## Contact
+
+<div class="grid" markdown>
+
+:fontawesome-solid-location-dot: __Location__ {{cv.location}}
+{ .card }
+
+:fontawesome-solid-paper-plane: __Email__ [{{cv.email}}](mailto:{{cv.email}})
+{ .card }
+
+:fontawesome-brands-github: __GitHub__ [{{ github.username }}](https://github.com/{{ github.username }})
+{ .card }
+
+:fontawesome-brands-linkedin: __LinkedIn__ [{{ linkedin.username }}](https://linkedin.com/in/{{ linkedin.username }})
+{ .card }
+
+</div>
+
+---
+## Summary
+{% for line in cv.sections.Summary %}
+{{ line }}
+{% endfor %}
+
+
+---
+## Experience
+
+``` mermaid
+timeline
+        title Timeline
+        section John Licudi & Partners, Gibraltar <br> 1997 - 1999
+          IT Specialist
+        section GibNet Ltd, Gibraltar <br> 2000 - 2005
+          Helpdesk
+          System Administrator
+        section Sapphire Networks, Gibraltar <br> 2005 - 2010
+          System Administrator
+          Head of IT Systems
+        section Licudi IT Consulting Ltd, Gibraltar <br> 2010 - 2012
+          IT Consultant
+        section Licudi BetVictor, Gibraltar <br> 2013
+          System Administrator
+          Enterprise Services Engineer
+        section Licudi Gibtelecom, Gibraltar <br> 2013 - 2023
+          System Administrator
+          Systems Analyst, Information Systems
+          Head of Development & Integration
+
+```
+
+{% for experience in cv.sections.experience %}
+### :material-account: {{experience.company}}, {{experience.location}}
+*{{ experience.summary }}*
+
+- **Position**: {{experience.position}}
+- **Duration**: {{experience.start_date}} - {{experience.end_date}}
+
+!!! note "Key Achievements"
+    {% for highlight in experience.highlights %}
+    - {{highlight}}
+    {% endfor %}
+{% endfor %}
+
+---
+
+## Projects
+
+{% for project in cv.sections.projects %}
+
+### {{project.name}}
+*{{ project.summary }}* ({{project.date}})
+
+!!! note "Highlights"
+    {% for highlight in project.highlights %}
+    - {{highlight}}
+    {% endfor %}
+{% endfor %}
+
+---
+
+## Courses
+
+{% for course in cv.sections.courses %}
+
+### :material-account: {{course.name}}
+
+!!! note "Highlights"
+    {% for highlight in course.highlights %}
+    - {{highlight}}
+    {% endfor %}
+{% endfor %}
+
+
+
+---
+## Education
+
+{% for education in cv.sections.education %}
+### {{education.degree}}  {{education.institution}}, {{education.area}}
+{% for highlight in education.highlights %}
+- {{highlight}}, {{education.location}}, {{education.start_date}}-{{education.end_date}}, {{education.location}}
+{% endfor %}
+{% endfor %}
+
+---
+## Languages
+
+{% for language in cv.sections.languages %}
+- {{language.label}}: {{language.details}}
+{% endfor %}
+
+---
+## Skills
+
+{% for skill in cv.sections.skills %}
+- {{skill.label}} - {{skill.details}}
+{% endfor %}
+
+---
+
+[Download CV :fontawesome-solid-download:](https://github.com/dlicudi/dlicudi.github.io/raw/main/pdf/Duane_Licudi_CV.pdf){ .md-button }

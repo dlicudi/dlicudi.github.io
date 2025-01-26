@@ -13,6 +13,7 @@ cv:
       - I have extensive experience in UNIX/Linux environments within the ISP/Telecom industries. For the past decade, I have focused on the development and integration of systems at Gibtelecom, including implementing monitoring systems, integrating multiple systems into a unified provisioning platform and achieving ISO 27001 compliance for secure development.
     experience:
       - company: Gibtelecom
+        summary: Lead Developer at Gibtelecom, responsible for all development and integration of key systems.
         position: Lead Developer
         location: Gibraltar
         start_date: 2013-01
@@ -29,6 +30,7 @@ cv:
           - Developed a Mediation platform (**Python**/**MySQL**) to facilitate data warehousing and interfacing of usage records for an **MVNO** required for regulatory compliance.
           - CI/CD pipelines using **Bash** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
       - company: BetVictor
+        summary: Middleware Engineer responsible for improving performance and monitoring of critical systems like Oracle Coherence, ActiveMQ, and Apache web servers.
         position: Enterprise Services Engineer
         location: Gibraltar
         start_date: 2012-12
@@ -39,17 +41,19 @@ cv:
           - Diagnosed and fixed configuration issues with the mobile website eliminating downtime.
           - Performed **MySQL** database optimisations on a **live betting** platform, significantly improving **performance** and enabling more events to run in parallel.
       - company: Licudi IT Consulting Ltd
+        summary: IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.
         position: IT Consultant
         location: Gibraltar
         start_date: 2010
         end_date: 2012
         highlights:
           - IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.
-          - Designed **IT infrastructure** for new offices including servers, network switches, telephony and workstations/printers for firm of managers quantity surveyors (John Licudi Consulting Ltd).
+          - Designed **IT infrastructure** for new offices including servers, network switches, telephony and workstations/printers.
           - Migration of a **Microsoft Exchange** setup of approx. 25 accounts to **Google Apps**.
           - Payroll application (**PHP**/**MySQL**) to automate social security/tax calculations and ability to print on pre-printed payslips.
           - Leave management system (**PHP**/**MySQL**) allowing for leave requests to be made online.          
       - company: Sapphire Networks
+        summary: Head of IT Systems and Helpdesk with hands on involvement in System administration and software development and responsibility for entire server infrastructure.
         position: IT Systems Manager
         location: Gibraltar
         start_date: 2005
@@ -62,7 +66,8 @@ cv:
           - Implementing solutions to recover from server failures, particularly in the provision of disaster recovery manuals/scripts for on call action.
           - Application for provisioning ADSL lines on MALC DSLAMs making extensive use of Pear classes for connectivity, and extending classes to hide complexity of provisioning
           - Developed system to manage On Call and NOC Shifts online (gained experience using frameworks iUI, iWebkit and jQTouch for better mobile experience).
-      - company: GibNet
+      - company: GibNet Ltd
+        summary: Initially allocated responsibilities for Helpdesk support for GibNet customers, Desktop support and system administration. My role was later expanded to focus more on system administration and programming with emphasis on improving server infrastructure (using mod_security and scripts to monitor for vulnerable code hosting internally and by customers) and implementing more resilient services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS/SMTP, and active backup servers for immediate recovery).
         position: System Administrator
         location: Gibraltar
         start_date: 2000
@@ -76,7 +81,8 @@ cv:
           - Frontend for RADIUS accounting data (**PHP**/**MySQL**) used by Helpdesk support and customer services.
           - Deployed paravirtualisation using **User Mode Linux** on a number of servers (as a precursor to newer technologies).
           - Developed custom **backup** system for a large server **infrastructure** (**MySQL**/**PHP**/**Bash**). This provided incremental rolling backups easily provisioned via configuration files with the **frontend** providing status of backup jobs.
-      - company: John Licudi Consulting Ltd
+      - company: John Licudi & Partners
+        summary: Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.
         position: IT Specialist
         location: Gibraltar
         start_date: 1997
@@ -176,6 +182,8 @@ cv:
         details: Documentation, READMEs, documentation on GitHub
       - label: RESTful API (★★★★★, 8+ yrs)
         details: Developed APIs using FastAPI, Flask, Django; use of Ericsson node APIs, third-party, and self-developed APIs.
+      - label: Jinja (★★★★☆, 8+ yrs)
+        details: Used for templating in Django and Flask, generating SOAP API requests.
     courses:
       - name: '[Microservices Fundamentals](https://www.pluralsight.com/courses/microservices-fundamentals)'
         highlights:
