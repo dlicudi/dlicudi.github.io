@@ -66,7 +66,7 @@ timeline
 *Lead Developer at Gibtelecom, responsible for all development and integration of key systems.*
 
 - **Position**: Lead Developer
-- **Duration**: 2013-01 - 2023-07
+- **Duration**: 2013 - 2023
 
 !!! note "Key Achievements"
     
@@ -95,7 +95,7 @@ timeline
 *Middleware Engineer responsible for improving performance and monitoring of critical systems like Oracle Coherence, ActiveMQ, and Apache web servers.*
 
 - **Position**: Enterprise Services Engineer
-- **Duration**: 2012-12 - 2013-12
+- **Duration**: 2012 - 2013
 
 !!! note "Key Achievements"
     

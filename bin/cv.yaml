@@ -16,8 +16,8 @@ cv:
         summary: Lead Developer at Gibtelecom, responsible for all development and integration of key systems.
         position: Lead Developer
         location: Gibraltar
-        start_date: 2013-01
-        end_date: 2023-07
+        start_date: 2013
+        end_date: 2023
         highlights:
           - Deployed monitoring system using **Check_MK** providing monitoring for over 60k services.
           - Led the support and integration of **Ericsson** provisioning platforms (EMA/EDA) with BSS systems.
@@ -33,8 +33,8 @@ cv:
         summary: Middleware Engineer responsible for improving performance and monitoring of critical systems like Oracle Coherence, ActiveMQ, and Apache web servers.
         position: Enterprise Services Engineer
         location: Gibraltar
-        start_date: 2012-12
-        end_date: 2013-12
+        start_date: 2012
+        end_date: 2013
         highlights:
           - Used **Splunk** to provide health monitoring of **Oracle Coherence** and **ActiveMQ** using **JMX**.
           - Deployment processes to eliminate **Oracle Coherence** downtime and improve deployment reliability.
