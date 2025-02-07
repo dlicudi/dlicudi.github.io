@@ -383,4 +383,4 @@ timeline
 
 ---
 
-[Download CV :fontawesome-solid-download:](https://github.com/dlicudi/dlicudi.github.io/raw/main/bin/Duane_Licudi_CV.pdf){ .md-button }
+[Download CV :fontawesome-solid-download:](https://github.com/dlicudi/dlicudi.github.io/raw/main/src/Duane_Licudi_CV.pdf){ .md-button }
