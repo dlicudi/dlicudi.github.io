@@ -3,3 +3,6 @@ docs/drafts/*
 rendercv/*
 .DS_Store
 bin/rendercv_output/*
+.vscode/*
+.env/*
+src/rendercv_output/*

@@ -1,33 +1,32 @@
 import yaml
 from jinja2 import Environment, FileSystemLoader
-import json
 import subprocess
 
 # Load YAML data
-with open('cv.yaml', 'r', encoding='utf-8') as file:
+with open("cv.yaml", "r", encoding="utf-8") as file:
     cv_data = yaml.safe_load(file)
 
 # Setup Jinja environment
-env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('cv.jinja')  # Updated to match
+env = Environment(loader=FileSystemLoader("."))
+template = env.get_template("cv.jinja")  # Updated to match
 
 # render CV from template using cv_data
-cv = cv_data['cv']
+cv = cv_data["cv"]
 
 # Output markdown CV to file using cv_data filename is render-online-cv.md
-with open('../docs/cv.md', 'w') as file:
+with open("../docs/cv.md", "w", encoding="utf-8") as file:
     file.write(template.render(cv=cv))
 
 # Define the command
 command = [
     "rendercv",
     "render",
-    "cv.yaml", 
+    "cv.yaml",
     "--pdf-path",
     ".",
     "--dont-generate-markdown",
     "--dont-generate-html",
-    "--dont-generate-png"
+    "--dont-generate-png",
 ]
 
 try:
