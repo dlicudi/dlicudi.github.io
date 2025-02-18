@@ -272,6 +272,18 @@ timeline
 
 
 
+### :material-account: [Fundamentals of Agents](https://huggingface.co/learn/agents-course)
+
+!!! note "Highlights"
+    
+    - Explain Tools, Thoughts, Actions, Observations, and their formats.
+    
+    - Explain LLMs, messages, special tokens and chat templates.
+    
+    - Show a simple use case using python functions as tools.
+    
+
+
 ### :material-account: [Microservices Fundamentals](https://www.pluralsight.com/courses/microservices-fundamentals)
 
 !!! note "Highlights"

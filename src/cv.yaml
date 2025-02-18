@@ -185,6 +185,11 @@ cv:
       - label: Jinja (★★★★☆, 8+ yrs)
         details: Used for templating in Django and Flask, generating SOAP API requests.
     courses:
+      - name: '[Fundamentals of Agents](https://huggingface.co/learn/agents-course)'
+        highlights:
+          - Explain Tools, Thoughts, Actions, Observations, and their formats.
+          - Explain LLMs, messages, special tokens and chat templates.
+          - Show a simple use case using python functions as tools.
       - name: '[Microservices Fundamentals](https://www.pluralsight.com/courses/microservices-fundamentals)'
         highlights:
           - Understanding of key principles for architecting microservice applications.
