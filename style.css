@@ -1,0 +1,83 @@
+:root {
+  --bg: #0c0d10;
+  --fg: #e7e7ea;
+  --muted: #8a8d94;
+  --accent: #7aa2f7;
+  --line: #1c1e24;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  padding: 3rem 2rem;
+}
+
+main {
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0.5rem 0 2rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.cta {
+  margin: 0;
+}
+
+.cta a {
+  display: inline-block;
+  color: var(--fg);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.cta a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.github {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.badges img { display: block; }
+
+.card {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}

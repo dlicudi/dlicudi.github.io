@@ -1,8 +1,7 @@
-name: ci 
+name: deploy
 on:
   push:
     branches:
-      - master 
       - main
 permissions:
   contents: write
@@ -11,21 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
+      - name: Assemble site
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+          mkdir -p _site
+          cp index.html style.css _site/
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install --upgrade --force-reinstall mkdocs-material
-      - run: pip install mkdocs-badges mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
-      - run: mkdocs gh-deploy --force
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true
