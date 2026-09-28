@@ -4,6 +4,7 @@
   --muted: #8a8d94;
   --accent: #7aa2f7;
   --line: #1c1e24;
+  --warn: #f7768e;
 }
 
 * { box-sizing: border-box; }
@@ -80,4 +81,19 @@ h1 {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+}
+
+.lander {
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.lander.playing { touch-action: none; }
+
+.lander:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
 }
